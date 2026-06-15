@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietary Fiber Intake Central</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="layout-minimal header-minimal footer-standard card-style-grid">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo"><a href="index.html#/">Dietary Fiber Intake Central</a></h1>
+                
+                <nav class="nav" id="main-nav">
+                    <a href="index.html#/" class="nav-link">Home</a>
+                    
+                    <a href="index.html#/category/beginner-dietary-fiber-intake" class="nav-link">
+                        
+                            
+                                
+                                    Beg. Dietary Fiber Intake
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                        
+                    </a>
+                    
+                    <a href="index.html#/category/advanced-dietary-fiber-intake" class="nav-link">
+                        
+                            
+                                
+                            
+                                
+                                    Adv. Dietary Fiber Intake
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                        
+                    </a>
+                    
+                    <a href="index.html#/category/tips-dietary-fiber-intake" class="nav-link">
+                        
+                            
+                                
+                            
+                                
+                            
+                                
+                                    Dietary Fiber Intake Tips
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                        
+                    </a>
+                    
+                    <a href="index.html#/category/history-dietary-fiber-intake" class="nav-link">
+                        
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                                    Dietary Fiber Intake Hist.
+                                
+                            
+                                
+                            
+                                
+                            
+                        
+                    </a>
+                    
+                    <a href="index.html#/category/trending-dietary-fiber-intake" class="nav-link">
+                        
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                                    Trnd. Dietary Fiber Intake
+                                
+                            
+                                
+                            
+                        
+                    </a>
+                    
+                    <a href="index.html#/category/tutorials-dietary-fiber-intake" class="nav-link">
+                        
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                                    Dietary Fiber Intake Tut.
+                                
+                            
+                        
+                    </a>
+                    
+                    <div class="search-container" id="search-container">
+                        <button class="search-toggle-btn" id="search-toggle-btn" title="Search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        </button>
+                        <form id="search-form" class="search-form">
+                            <input type="text" id="search-input" placeholder="Search..." required>
+                            <button type="submit" class="search-submit-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </button>
+                        </form>
+                    </div>
+                </nav>
+
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 首页 Banner，仅在首页显示 -->
+    <div id="home-banner-container" class="home-banner-container"></div>
+
+    <!-- AD-01: 顶部横幅 -->
+    <div class="banner-ad ad-slot"
+         data-ad-container="true"
+         data-ad-id="AD-01"
+         data-ad-position="top"
+         data-ad-networks="adsense,adsterra,gam"
+         data-ad-status="pending">
+        <div class="ad-skeleton">
+            <div class="ad-label">AD-01 - 顶部横幅</div>
+        </div>
+        <div class="ad-content" data-ad-network="adsense"></div>
+        <div class="ad-content" data-ad-network="adsterra"></div>
+        <div class="ad-content" data-ad-network="gam"></div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <div class="main-content-wrapper">
+                <!-- Dynamic Modules Container -->
+                <div id="modules-container"></div>
+                
+                <div class="content-and-sidebar">
+                    <div class="main-content" id="app">
+                    </div>
+
+                    <aside class="sidebar">
+                        <!-- Categories -->
+                        <div class="sidebar-widget">
+                            <h3>Categories</h3>
+                            <div id="sidebar-categories" class="sidebar-categories"></div>
+                        </div>
+
+                        <!-- Recommended News -->
+                        <div class="sidebar-widget">
+                            <h3>Recommended</h3>
+                            <div id="sidebar-recommended-news"></div>
+                        </div>
+
+                        <!-- Category Specific Widgets -->
+                        <div id="sidebar-category-widgets"></div>
+
+                        <!-- AD-02: Sidebar-1 -->
+                        <div class="ad-slot"
+                             data-ad-container="true"
+                             data-ad-id="AD-02"
+                             data-ad-position="sidebar-1"
+                             data-ad-networks="adsense,adsterra,gam"
+                             data-ad-status="pending">
+                            <div class="ad-skeleton">
+                                <div class="ad-label">AD-02 - Sidebar Banner 1</div>
+                            </div>
+                            <div class="ad-content" data-ad-network="adsense"></div>
+                            <div class="ad-content" data-ad-network="adsterra"></div>
+                            <div class="ad-content" data-ad-network="gam"></div>
+                        </div>
+
+                        <!-- AD-03: Sidebar-2 -->
+                        <div class="ad-slot"
+                             data-ad-container="true"
+                             data-ad-id="AD-03"
+                             data-ad-position="sidebar-2"
+                             data-ad-networks="adsterra"
+                             data-ad-status="pending">
+                            <div class="ad-skeleton">
+                                <div class="ad-label">AD-03 - Social Bar</div>
+                            </div>
+                            <div class="ad-content" data-ad-network="adsterra"></div>
+                        </div>
+                    </aside>
+                </div>
+
+                <!-- AD-07: Feed Ad - JS injected -->
+                <div id="feed-ad-container"></div>
+
+                <!-- AD-04, AD-05, AD-06: In-article Ads - JS injected -->
+                <div id="in-article-ad-container"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- AD-08: Bottom Banner -->
+    <div class="ad-slot"
+         data-ad-container="true"
+         data-ad-id="AD-08"
+         data-ad-position="bottom"
+         data-ad-networks="adsense,adsterra,gam"
+         data-ad-status="pending"
+         style="min-height:90px;width:100%;">
+        <div class="ad-skeleton">
+            <div class="ad-label">AD-08 - Bottom Banner</div>
+        </div>
+        <div class="ad-content" data-ad-network="adsense"></div>
+        <div class="ad-content" data-ad-network="adsterra"></div>
+        <div class="ad-content" data-ad-network="gam"></div>
+    </div>
+
+    <!-- Floating Ads -->
+    <div class="floating-ads">
+        <!-- AD-09: Floating Ad -->
+        <div class="ad-slot floating-ad"
+             data-ad-container="true"
+             data-ad-id="AD-09"
+             data-ad-position="floating"
+             data-ad-networks="adsterra,gam"
+             data-ad-status="pending">
+            <div class="ad-skeleton">
+                <div class="ad-label">AD-09 - Floating Ad</div>
+            </div>
+            <div class="ad-content" data-ad-network="adsterra"></div>
+            <div class="ad-content" data-ad-network="gam"></div>
+        </div>
+    </div>
+
+    <!-- AD-10: Interstitial Ad -->
+    <div id="interstitial-ad"
+         class="ad-slot interstitial-ad"
+         data-ad-container="true"
+         data-ad-id="AD-10"
+         data-ad-position="interstitial"
+         data-ad-networks="adsterra,gam"
+         data-ad-status="pending">
+        <div class="ad-skeleton">
+            <div class="ad-label">AD-10 - Interstitial Ad</div>
+        </div>
+        <div class="ad-content" data-ad-network="adsterra"></div>
+        <div class="ad-content" data-ad-network="gam"></div>
+    </div>
+
+    <!-- AD-11: 搜索广告 - 隐藏，搜索页显示 -->
+    <div id="search-ad-container" style="display:none;"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <h2>Dietary Fiber Intake Central</h2>
+                    </div>
+                    <p class="footer-description">Your premier destination for professional insights, practical guides, and the latest trends in dietary fiber intake. Join our community for a healthier, smarter lifestyle.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a>
+                        <a href="#" class="social-link" title="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#" class="social-link" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                        <a href="#" class="social-link" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    </div>
+                </div>
+                
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <h3 class="footer-heading">Categories</h3>
+                        <div id="footer-categories-container" class="footer-links-container">
+                            <!-- Categories rendered by JS -->
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3 class="footer-heading">Quick Links</h3>
+                        <div class="footer-links-container">
+                            <a href="about.html">About Our Mission</a>
+                            <a href="contact.html">Get in Touch</a>
+                            <a href="faq.html">Help Center</a>
+                            <a href="sitemap.xml">Site Map</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3 class="footer-heading">Stay Updated</h3>
+                        <p class="newsletter-text">Subscribe to our newsletter for weekly insights.</p>
+                        <form class="footer-newsletter">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit">Join</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <p class="copyright">&copy; <span id="footer-year"></span> Dietary Fiber Intake Central. Built for excellence.</p>
+                    <div class="footer-legal-links">
+                        <a href="privacy.html">Privacy</a>
+                        <a href="terms.html">Terms</a>
+                        <a href="cookie-policy.html">Cookies</a>
+                        <a href="dmca.html">DMCA</a>
+                    </div>
+                </div>
+                <div class="back-to-top-container">
+                    <button id="back-to-top" class="back-to-top-btn" title="Back to Top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="js/ad-config.js"></script>
+    <script src="js/ad-adapters.js"></script>
+    <script src="js/ads.js"></script>
+    <script src="js/ad-injector.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

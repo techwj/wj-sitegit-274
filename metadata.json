@@ -1,0 +1,72 @@
+{
+  "siteId": "dietary-fiber-intake",
+  "generatedAt": "2026-06-05T17:39:16.604575",
+  "categories": [
+    "beginner-dietary-fiber-intake",
+    "advanced-dietary-fiber-intake",
+    "tips-dietary-fiber-intake",
+    "history-dietary-fiber-intake",
+    "trending-dietary-fiber-intake",
+    "tutorials-dietary-fiber-intake"
+  ],
+  "categoryData": [
+    {
+      "category_slug": "beginner-dietary-fiber-intake",
+      "category_name": "Beginner Dietary Fiber Intake"
+    },
+    {
+      "category_slug": "advanced-dietary-fiber-intake",
+      "category_name": "Advanced Dietary Fiber Intake"
+    },
+    {
+      "category_slug": "tips-dietary-fiber-intake",
+      "category_name": "Dietary Fiber Intake Tips"
+    },
+    {
+      "category_slug": "history-dietary-fiber-intake",
+      "category_name": "Dietary Fiber Intake History"
+    },
+    {
+      "category_slug": "trending-dietary-fiber-intake",
+      "category_name": "Trending Dietary Fiber Intake"
+    },
+    {
+      "category_slug": "tutorials-dietary-fiber-intake",
+      "category_name": "Dietary Fiber Intake Tutorials"
+    }
+  ],
+  "articleCount": 108,
+  "design": {
+    "site_id": "dietary-fiber-intake",
+    "color_scheme": {
+      "name": "Modern Slate",
+      "primary": "#0f172a",
+      "secondary": "#334155",
+      "accent": "#38bdf8",
+      "background": "#f1f5f9",
+      "text": "#1e293b",
+      "light": "#e2e8f0"
+    },
+    "font": {
+      "name": "Inter",
+      "family": "'Inter', system-ui, sans-serif",
+      "import": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');"
+    },
+    "layout": "minimal",
+    "border_radius": "0px",
+    "box_shadow": "none",
+    "article_card_style": "grid",
+    "header_style": "minimal",
+    "footer_style": "standard",
+    "modules": [
+      "newsletter-signup",
+      "popular-tags",
+      "featured-section",
+      "social-links",
+      "category-highlights",
+      "trending-articles"
+    ],
+    "site_title": "Dietary Fiber Intake Central",
+    "articles_per_row": 1
+  }
+}
